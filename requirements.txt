@@ -1,0 +1,15 @@
+# BP Duplicate Checker - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Excel file handling
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Fuzzy string matching
+rapidfuzz>=3.0.0
+
+# GUI (Tkinter is included with Python, but we need ttk themes)
+ttkthemes>=3.2.0
+
+# For building Windows executable
+pyinstaller>=6.0.0
